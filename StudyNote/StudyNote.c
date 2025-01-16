@@ -306,3 +306,111 @@
 //문제 (2)
 //입력 받은 학생들의 성적을 막대 그래프로 나타내는 프로그램을 만들어 보세요.
 #pragma endregion
+
+
+#pragma region 고차원 배열
+// 2차원 배열 예제
+// int main(void)
+// {
+// 	int arr[3][3] = { 1,2,3,4,5,6,7,8,9 };
+// 
+// 	printf("arr 배열의 2행 3열의 수를 출력 : %d \n", arr[1][2]);
+// 	printf("arr 배열의 1행 2열의 수를 출력 : %d \n", arr[0][1]);
+// 	return 0;
+// }
+
+// 학생 점 수 입력받기 
+// int main(void)
+// {
+// 	int score[3][2];
+// 	int i, j;
+// 
+// 	for (i = 0; i < 3; i++)
+// 	{
+// 		for (j = 0; j < 2; j++)
+// 		{
+// 			if (j == 0)
+// 			{
+// 				printf("%d 번째 학생의 국어 점수 : ", i + 1);
+// 				scanf_s("%d", &score[i][j]);
+// 			}
+// 			else if (j == 1)
+// 			{
+// 				printf("%d 번째 학생의 수학 점수 : ", i + 1);
+// 				scanf_s("%d",&score[i][j]);
+// 			}
+// 
+// 		}
+// 	}
+// 
+// 
+// 	for (i = 0; i < 3; i++)
+// 	{
+// 		printf("%d 번째 학생의 국어 점수 : %d, 수학점수 : %d \n", i + 1, score[i][0], score[i][1]);
+// 	}
+// 
+// 	return 0;
+// }
+
+#pragma endregion
+
+
+#pragma region 포인터 
+/* & 연산자 */
+// int main(void)
+// {
+// 	int a;
+// 	a = 2;
+// 
+// 	printf("%p \n", &a);
+// 	return 0;
+// }
+
+
+// 포인터의 시작
+// int main(void)
+// {
+// 	int* p;
+// 	int a;
+// 
+// 	p = &a;
+// 
+// 	printf("포인터 p에 들어 있는 값 : %p \n", p);
+// 	printf("int 변수 a가 저장된 주소 : %p \n", &a);
+// 
+// 	return 0;
+// }
+
+// * 연산자의 이용
+
+// int main(void)
+// {
+// 	int* p;
+// 	int a;
+// 
+// 	p = &a;
+// 	a = 2;
+// 
+// 	printf("a 의 값 : %d \n",a);
+// 	printf("*p 의 값 : %d \n",*p);
+// 
+// 	return 0;
+// }
+
+
+// * 연산자의 이용 2
+
+int main()
+{
+	int* p;
+	int a;
+
+	p = &a;
+	*p = 3;
+
+	printf("a 의 값 : %d \n", a);
+	printf("*p 의 값 : %d \n",*p);
+
+	return 0;
+}
+#pragma endregion
