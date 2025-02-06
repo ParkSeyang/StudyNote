@@ -355,7 +355,7 @@
 #pragma endregion
 
 
-#pragma region 포인터 
+#pragma region 포인터 (1)
 /* & 연산자 */
 // int main(void)
 // {
@@ -382,7 +382,6 @@
 // }
 
 // * 연산자의 이용
-
 // int main(void)
 // {
 // 	int* p;
@@ -399,18 +398,124 @@
 
 
 // * 연산자의 이용 2
+// int main()
+// {
+// 	int* p;
+// 	int a;
+// 
+// 	p = &a;
+// 	*p = 3;
+// 
+// 	printf("a 의 값 : %d \n", a);
+// 	printf("*p 의 값 : %d \n",*p);
+// 
+// 	return 0;
+// }
 
-int main()
-{
-	int* p;
-	int a;
+// 포인터도 변수이다.
+// int main(void)
+// {
+// 	int a;
+// 	int b;
+// 	int* p;
+// 
+// 	p = &a;
+// 	*p = 2;
+// 
+// 	p = &b;
+// 	*p = 4;
+// 
+// 	printf("a : %d \n",a);
+// 	printf("b : %d \n",b);
+// 	
+// 	return 0;
+// 	
+// }
+#pragma endregion
 
-	p = &a;
-	*p = 3;
 
-	printf("a 의 값 : %d \n", a);
-	printf("*p 의 값 : %d \n",*p);
+#pragma region 포인터 (2)
+/* 상수 포인터? */
+// int main()
+// 
+// 	int a;
+// 	int b;
+// 
+// 	const int* pa = &a;
+// 
+// 	*pa = 3;
+// 	pa = &b;
+// 
+// 	return 0;
+// 
 
-	return 0;
-}
+/* 포인터의 덧셈 */
+// int main()
+// {
+// 	int a;
+// 	int* pa;
+// 	pa = &a;
+// 
+// 	printf("pa 의 값: %p \n",pa);
+// 	printf("(pa + 1) 의 값 : %p \n", pa + 1);
+// 	return 0;
+// }
+
+/* 포인터의 덧셈2 */
+// int main()
+// {
+// 	int a;
+// 	char b;
+// 	double c;
+// 	int* pa = &a;
+// 	char* pb = &b;
+// 	double* pc = &c;
+// 
+ 	// int 형은 기본 4byte 메모리를 
+ 	// 할당함으로 4byte 만큼 주소값이 더해진다.
+// 	printf("pa 의 값 : %p \n", pa);
+// 	printf("(pa + 1) 의 값 : %p \n", pa + 1);
+// 
+ 	// char 형 은 기본 1byte 메모리를 
+ 	// 할당함으로 1byte 만큼 주소값이 더해진다.
+// 	printf("pb 의 값 : %p \n", pb);
+// 	printf("(pb + 1) 의 값 : %p \n", pb + 1);
+// 
+ 	// double 형은 기본 8byte의 메모리를
+	// 할당함으로 8byte 만큼 주소값이 더해진다.
+// 	printf("pc 의 값 : %p \n", pc);
+// 	printf("(pc + 1) 의 값 : %p \n", pc + 1);
+// 
+// }
+
+/* 포인터 뺄셈 */
+// int main()
+// {
+//     int a;
+//     int* pa = &a;
+// 
+    // int 형은 기본 4byte 메모리를 
+    // 할당함으로 4byte 만큼 주소값이 뺄셈이 된다.
+//     printf("pa 의 값 : %p \n",pa);
+//     printf("(pa - 1) 의 값 : %p \n",pa - 1);
+// }
+
+/* 포인터끼리의 덧셈 */
+
+// int main()
+// {
+//     int a;
+//     int* pa = &a;
+//     int b;
+//     int* pb = &b;
+//     int* pc = pa + pb;
+// 
+// 포인터 끼리의 덧셈은 아무런 의미가 없기 때문에 
+// C 언어에선 수행할 수 없습니다.
+// 
+//     return 0;
+// }
+
+
+
 #pragma endregion

@@ -1,2 +1,2 @@
 ﻿  StudyNote.c
-  StudyNote.vcxproj -> C:\Users\ghlwk_sc7hq61\OneDrive\Desktop\게임 프로그래밍 개발자 수업 과정\StudyNote\x64\Debug\StudyNote.exe
+C:\Users\ghlwk_sc7hq61\OneDrive\Desktop\게임 프로그래밍 개발자 수업 과정\StudyNote\StudyNote\StudyNote.c(511,18): error C2110: '+': 두 포인터를 더할 수 없습니다.
