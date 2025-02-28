@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\StudyNote\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28804B73-2AC3-4318-8B4D-7A6076EFDCD7}|StudyNote\\StudyNote.vcxproj|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote\\StudyNote.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7DF8F0F6-21B2-41E0-87FF-57D77FAAEFFD}|C\u002B\u002B Study Note\\C\u002B\u002B Study Note.vcxproj|C:\\Users\\Administrator\\Desktop\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7DF8F0F6-21B2-41E0-87FF-57D77FAAEFFD}|C\u002B\u002B Study Note\\C\u002B\u002B Study Note.vcxproj|solutionrelative:C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28804B73-2AC3-4318-8B4D-7A6076EFDCD7}|StudyNote\\StudyNote.vcxproj|C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote\\StudyNote.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{28804B73-2AC3-4318-8B4D-7A6076EFDCD7}|StudyNote\\StudyNote.vcxproj|solutionrelative:StudyNote\\StudyNote.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67E0B34C-9AB9-4EBB-AA99-EB3398902E61}|StudyNote 2\\StudyNote 2.vcxproj|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote 2\\StudyNote 2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{67E0B34C-9AB9-4EBB-AA99-EB3398902E61}|StudyNote 2\\StudyNote 2.vcxproj|C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote 2\\StudyNote 2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{67E0B34C-9AB9-4EBB-AA99-EB3398902E61}|StudyNote 2\\StudyNote 2.vcxproj|solutionrelative:StudyNote 2\\StudyNote 2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -18,29 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudyNote 2.c",
-              "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote 2\\StudyNote 2.c",
-              "RelativeDocumentMoniker": "StudyNote 2\\StudyNote 2.c",
-              "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote 2\\StudyNote 2.c",
-              "RelativeToolTip": "StudyNote 2\\StudyNote 2.c",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-01-11T15:53:00.082Z"
+              "DocumentIndex": 0,
+              "Title": "C\u002B\u002B Study Note.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
+              "RelativeToolTip": "C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-28T08:47:52.797Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "StudyNote 2.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote 2\\StudyNote 2.c",
+              "RelativeDocumentMoniker": "StudyNote 2\\StudyNote 2.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote 2\\StudyNote 2.c",
+              "RelativeToolTip": "StudyNote 2\\StudyNote 2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-11T15:53:00.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StudyNote.c",
-              "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote\\StudyNote.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote\\StudyNote.c",
               "RelativeDocumentMoniker": "StudyNote\\StudyNote.c",
-              "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote\\StudyNote.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote\\StudyNote.c",
               "RelativeToolTip": "StudyNote\\StudyNote.c",
-              "ViewState": "AgIAAO0BAAAAAAAAAADwvwYCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMsBAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-10T16:20:29.958Z",
               "EditorCaption": ""
