@@ -7,6 +7,9 @@
       "RelativeMoniker": "D:0:0:{C39E76CD-3F17-45F3-B89D-333C51EC69E6}|For Moon Study\\For Moon Study.vcxproj|solutionrelative:For Moon Study\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28804B73-2AC3-4318-8B4D-7A6076EFDCD7}|StudyNote\\StudyNote.vcxproj|C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote\\StudyNote.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{28804B73-2AC3-4318-8B4D-7A6076EFDCD7}|StudyNote\\StudyNote.vcxproj|solutionrelative:StudyNote\\StudyNote.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -26,8 +29,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "stdio.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "ViewState": "AgIAAHkCAAAAAAAAAAAEwIUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T11:50:42.379Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +52,14 @@
               "RelativeDocumentMoniker": "For Moon Study\\Source.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\StudyNote\\For Moon Study\\Source.c",
               "RelativeToolTip": "For Moon Study\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAD4v0gAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-07T12:41:53.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "C\u002B\u002B Study Note.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
               "RelativeDocumentMoniker": "C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
@@ -55,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudyNote 2.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote 2\\StudyNote 2.c",
               "RelativeDocumentMoniker": "StudyNote 2\\StudyNote 2.c",
@@ -63,12 +79,11 @@
               "RelativeToolTip": "StudyNote 2\\StudyNote 2.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAIwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-01-11T15:53:00.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T15:53:00.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StudyNote.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote\\StudyNote.c",
               "RelativeDocumentMoniker": "StudyNote\\StudyNote.c",
