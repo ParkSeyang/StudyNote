@@ -75,7 +75,19 @@ int main(void)
 	// 		printf("%d * %d = %d\n",i, j, i * j);
 	// 	}
 	// }
-	
+	int i = 0;	// 반복 횟수를 세기위한 제어 변수
+	int sum = 0; // 1부터 10까지의 합을 누적할 변수
+
+	for (int i = 1; i <= 10; i++) // i 는 1부터 10까지 증가하면서 열 번 반복
+	{
+		sum += i; // i값을 sum에 누적
+		if (sum > 30)break; // 누적한 값이 30보다 크면 반복문을 끝낸다.
+	}
+
+	printf("누적한 값 : %d\n", sum);
+	printf("마지막으로 더한 값 : %d\n", i);
+
+
 	// 2중 for 문 의 별찍기
 	
 	// int i = 0; 공백
