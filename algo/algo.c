@@ -1,6 +1,8 @@
 ﻿#include <stdio.h>
 #include <stdlib.h>
-#pragma region 병합정렬
+#include "MakingChange.h"
+
+#pragma region C언어 병합정렬
 //void MergeSort(int DataSet[], int StartIndex, int EndIndex);
 //void Merge(int DataSet[], int StartIndex, int MiddleIndex, int EndIndex);
 //
@@ -77,42 +79,98 @@
 //    return 0;
 //}
 #pragma endregion
-typedef unsigned long ULONG;
+#pragma region C언어 동적계획법
+// typedef unsigned long ULONG;
+// 
+// ULONG Fibonacci(int N)
+// {
+// 	int i;
+// 	ULONG Result;
+// 	ULONG* FibonacciTable;
+// 	if (N == 0 || N == 1)
+// 	{
+// 		return N;
+// 	}
+// 
+// 	FibonacciTable = (ULONG*)malloc(sizeof(ULONG) * (N + 1));
+// 
+// 	FibonacciTable[0] = 0;
+// 	FibonacciTable[1] = 1;
+// 
+// 	for (i = 2; i <= N; i++)
+// 	{
+// 		FibonacciTable[i] = FibonacciTable[i - 1] + FibonacciTable[i - 2];
+// 	}
+// 
+// 	Result = FibonacciTable[N];
+// 
+// 	free(FibonacciTable);
+// 
+// 	return Result;
+// }
+// 
+// int main()
+// {
+// 	int N = 46;
+// 
+// 	ULONG Result = Fibonacci(N);
+// 
+// 	printf("Fibonacci(%d) = %lu \n", N, Result);
+// 
+// 	return 0;
+// }
 
-ULONG Fibonacci(int N)
+#pragma endregion
+#pragma region 탐욕 알고리즘 
+int Compare(const void* a, const void* b)
 {
-	int i;
-	ULONG Result;
-	ULONG* FibonacciTable;
-	if (N == 0 || N == 1)
+	int _a = *(int*)a;
+	int _b = *(int*)b;
+
+	if (_a < _b)
 	{
-		return N;
+		return 1;
+	}
+	else
+	{
+		return -1;
 	}
 
-	FibonacciTable = (ULONG*)malloc(sizeof(ULONG) * (N + 1));
-
-	FibonacciTable[0] = 0;
-	FibonacciTable[1] = 1;
-
-	for (i = 2; i <= N; i++)
-	{
-		FibonacciTable[i] = FibonacciTable[i - 1] + FibonacciTable[i - 2];
-	}
-
-	Result = FibonacciTable[N];
-
-	free(FibonacciTable);
-
-	return Result;
 }
-
 int main()
 {
-	int N = 46;
+	int i = 0;
+	int Pay = 0;
+	int Price = 0;
+	int UnitCount = 0;
+	int* CoinUnits = NULL;
+	int* Change = NULL;
 
-	ULONG Result = Fibonacci(N);
+	printf("동전의 가짓수를 입력하세요 : ");
+	scanf_s("%d", &UnitCount);
 
-	printf("Fibonacci(%d) = %lu \n", N, Result);
+	CoinUnits = (int*)malloc(sizeof(int) * UnitCount);
+	Change = (int*)malloc(sizeof(int) * UnitCount);
+
+	for (i = 0; i < UnitCount; i++)
+	{
+		printf("[%d] 번째 동전의 단위를 입력하세요 : ", i);
+		scanf_s("%d", &CoinUnits[i]);
+	}
+
+	qsort(CoinUnits, UnitCount, sizeof(int), Compare);
+
+	printf("물건 가격을 입력하세요 : ");
+	scanf_s("%d", &Price);
+
+	printf("손님이 지불한 돈은 얼마입니까? : ");
+	scanf_s("%d", &Pay);
+
+	GetChange(Price, Pay, CoinUnits, Change, UnitCount);
+
+	PrintChange(CoinUnits, Change, UnitCount);
 
 	return 0;
 }
+#pragma endregion
+
