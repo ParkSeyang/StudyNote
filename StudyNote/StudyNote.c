@@ -365,7 +365,35 @@
 // 	printf("%p \n", &a);
 // 	return 0;
 // }
+// 
+// 주소연산자를 활용하여 변수의 메모리주소 확인하기.
+// int main()
+// {
+//     int a;
+//     double b;
+//     char c;
+// 
+//     printf("int 형 변수의 주소 : %p\n", &a);
+//     printf("double 형 변수의 주소 : %p\n", &b);
+//     printf("char 형 변수의 주소 : %p\n", &c);
+// 
+//     return 0;
+// }
 
+// 포인터의 선언과 사용
+int main()
+{
+    int a;
+    int* pa;
+
+    pa = &a;
+    *pa = 10;
+
+    printf("포인터로 a값 출력 : %d \n",*pa);
+    printf("변수명으로 a값 출력 : %d\n", a);
+
+    return 0;
+}
 
 // 포인터의 시작
 // int main(void)
