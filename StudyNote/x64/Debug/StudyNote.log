@@ -1,4 +1,2 @@
 ﻿  StudyNote.c
-C:\Users\Administrator\Desktop\StudyNote\StudyNote\StudyNote.c(578,8): warning C4133: '=': 'int *'과(와) 'double *' 사이의 형식이 호환되지 않습니다.
-C:\Users\Administrator\Desktop\StudyNote\StudyNote\StudyNote.c(580,5): warning C4102: '결과': 참조되지 않은 레이블입니다.
   StudyNote.vcxproj -> C:\Users\Administrator\Desktop\StudyNote\x64\Debug\StudyNote.exe
