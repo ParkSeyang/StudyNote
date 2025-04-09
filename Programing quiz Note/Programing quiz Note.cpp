@@ -1,20 +1,17 @@
 ﻿#include <iostream>
-#define LEN_INPUT 1000001
+#include <string>
+
 using namespace std;
 
-#pragma region MyRegion
+#pragma region 문자열 출력하기
 
 
-
-int main(void) 
-{
-    char s1[LEN_INPUT];
-    scanf_s("%s", s1);
-
-    cout << s1 << endl;
-
-    return 0;
-}
+// int main(void) {
+//     string str;
+//     cin >> str;
+//     cout << str << endl;
+//     return 0;
+// }
 #pragma endregion
 
 #pragma region 각도 합치기
@@ -48,4 +45,80 @@ int main(void)
 // }
 #pragma endregion
 
+#pragma region a와 b 출력하기
 
+// int main(void) 
+// {
+//     int a;
+//     int b;
+//     cin >> a >> b;
+//     cout << "a = " << a << endl;
+//     cout << "b = " << b << endl;
+//     return 0;
+// }
+
+#pragma endregion
+
+#pragma region 문자열 반복해서 출력하기
+
+// int main(void) 
+// {
+//     string str;
+//     int n;
+//   
+//     cin >> str >> n;
+//     for (int i = 0; i < n; i++)
+//     {
+//         cout << str;
+//     }
+//     return 0;
+// }
+#pragma endregion
+
+#pragma region 대소문자 바꿔서 출력하기
+// int main(void) 
+// {
+//     string str;
+//     cin >> str;
+//     for (int i = 0; i < str.size(); i++)
+//     {
+//         if (str[i] >= 'A' && str[i] <= 'Z')
+//         {
+//             str[i] += 32;
+//         }
+//         else 
+//         {
+//             str[i] -= 32;
+//         }
+//     }
+//     
+//     cout << str;
+//     
+//     return 0;
+// }
+
+#pragma endregion
+
+#pragma region 특수문자 출력하기
+// int main(void) 
+// {
+//     cout << R"(!@#$%^&*(\'"<>?:;)";
+//     return 0;
+// }
+// 방법 2
+// int main() 
+// {
+//    cout << "!@#$%^&*(\\'\"<>?:;" << endl;
+//    return 0;
+//  }
+#pragma endregion
+
+#pragma region 덧셈식 출력하기
+int main(void) {
+    int a;
+    int b;
+    cin >> a >> b;
+    cout << a + b << endl;
+    return 0;
+}
+#pragma endregion
