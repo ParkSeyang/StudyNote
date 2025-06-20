@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\StudyNote\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9B21889-C2A6-4AA0-A74C-0EB00506D39B}|Programing quiz Note\\Programing quiz Note.vcxproj|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Programing quiz Note\\Programing quiz Note.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{28804B73-2AC3-4318-8B4D-7A6076EFDCD7}|StudyNote\\StudyNote.vcxproj|C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote\\StudyNote.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{28804B73-2AC3-4318-8B4D-7A6076EFDCD7}|StudyNote\\StudyNote.vcxproj|solutionrelative:StudyNote\\StudyNote.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B21889-C2A6-4AA0-A74C-0EB00506D39B}|Programing quiz Note\\Programing quiz Note.vcxproj|C:\\Users\\Administrator\\Desktop\\StudyNote\\Programing quiz Note\\Programing quiz Note.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A9B21889-C2A6-4AA0-A74C-0EB00506D39B}|Programing quiz Note\\Programing quiz Note.vcxproj|solutionrelative:Programing quiz Note\\Programing quiz Note.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
@@ -16,24 +20,19 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote\\StudyNote.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Pointer Study\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pointer Study\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Pointer Study\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:algo\\MakingChange.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:algo\\MakingChange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\algo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:algo\\algo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\algo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,113 +42,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "StudyNote.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote\\StudyNote.cpp",
+              "RelativeDocumentMoniker": "StudyNote\\StudyNote.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\StudyNote\\StudyNote\\StudyNote.cpp",
+              "RelativeToolTip": "StudyNote\\StudyNote.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwCcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-20T11:24:11.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "stdio.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "ViewState": "AgIAANUDAAAAAAAAAAAawEoEAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-09T16:41:10.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Programing quiz Note.cpp",
-              "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Programing quiz Note\\Programing quiz Note.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\StudyNote\\Programing quiz Note\\Programing quiz Note.cpp",
               "RelativeDocumentMoniker": "Programing quiz Note\\Programing quiz Note.cpp",
-              "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Programing quiz Note\\Programing quiz Note.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\StudyNote\\Programing quiz Note\\Programing quiz Note.cpp",
               "RelativeToolTip": "Programing quiz Note\\Programing quiz Note.cpp",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-07T11:30:25.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Pointer Study\\Source.c",
-              "RelativeDocumentMoniker": "Pointer Study\\Source.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Pointer Study\\Source.c",
               "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Pointer Study\\Source.c",
-              "RelativeToolTip": "Pointer Study\\Source.c",
+              "RelativeToolTip": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Pointer Study\\Source.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-02T12:27:48.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MakingChange.c",
               "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.c",
-              "RelativeDocumentMoniker": "algo\\MakingChange.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.c",
               "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.c",
-              "RelativeToolTip": "algo\\MakingChange.c",
+              "RelativeToolTip": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-26T12:05:04.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MakingChange.h",
               "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.h",
-              "RelativeDocumentMoniker": "algo\\MakingChange.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.h",
               "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.h",
-              "RelativeToolTip": "algo\\MakingChange.h",
+              "RelativeToolTip": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\MakingChange.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-26T11:33:44.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "algo.c",
               "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\algo.c",
-              "RelativeDocumentMoniker": "algo\\algo.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\algo.c",
               "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\algo.c",
-              "RelativeToolTip": "algo\\algo.c",
+              "RelativeToolTip": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\algo\\algo.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-24T11:26:13.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "stdio.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\stdio.h",
               "ViewState": "AgIAAD4EAAAAAAAAAAAIwEoEAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-12T11:50:42.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "C\u002B\u002B Study Note.cpp",
               "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
-              "RelativeDocumentMoniker": "C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
               "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
-              "RelativeToolTip": "C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
+              "RelativeToolTip": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\C\u002B\u002B Study Note\\C\u002B\u002B Study Note.cpp",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-28T08:47:52.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StudyNote.c",
               "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote\\StudyNote.c",
-              "RelativeDocumentMoniker": "..\\..\\StudyNote\\StudyNote\\StudyNote.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote\\StudyNote.c",
               "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote\\StudyNote.c",
-              "RelativeToolTip": "..\\..\\StudyNote\\StudyNote\\StudyNote.c",
+              "RelativeToolTip": "..\\..\\..\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\StudyNote\\StudyNote\\StudyNote.c",
               "ViewState": "AgIAAEsCAAAAAAAAAAAIwPcCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-10T16:20:29.958Z"
