@@ -77,32 +77,60 @@ signs[i] 가 참이면 absolutes[i] 의 실제 정수가 양수임을, 그렇지 않으면 음수임을 
 
 
 // 두정수 사이의 공식을 사용한다.
-long long solution(int a, int b)
-{
-    if (a > b)
-    {
-        std::swap(a, b);
-    }
+// long long solution(int a, int b)
+// {
+//     if (a > b)
+//     {
+//         std::swap(a, b);
+//     }
+// 
+//     long long answer = 0;
+//     long long count = (b - a) + 1;
+// 
+//     answer = count * (a + b) / 2;
+// 
+//     if (a == b)
+//     {
+//         answer = a;
+//     }
+// 
+//     return answer;
+// }
+// 
+// int main()
+// {
+//    long long sum = solution(5, 3);
+//     
+//     std::cout << sum << std::endl;
+// }
 
-    long long answer = 0;
-    long long count = (b - a) + 1;
 
-    answer = count * (a + b) / 2;
-
-    if (a == b)
-    {
-        answer = a;
-    }
-
-    return answer;
-}
-
-int main()
-{
-   long long sum = solution(5, 3);
-    
-    std::cout << sum << std::endl;
-}
+#pragma endregion
 
 
+#pragma region 짝수와 홀수
+
+// string solution(int num)
+// {
+//     string answer = "";
+// 
+//     if (num % 2 == 0)
+//     {
+//         answer = "Even";
+//     }
+//     else
+//     {
+//         answer = "Odd";
+//     }
+//     return answer;
+// }
+// 
+// int main()
+// {
+//     string result = solution(51);
+// 
+//     cout << result << std::endl;
+// }
+// else if (num % 2 == 1) 를 못하는 이유 
+// 결과 값이 음수(-1) 이 출력 될수도 있기때문입니다.
 #pragma endregion
