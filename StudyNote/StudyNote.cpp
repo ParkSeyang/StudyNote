@@ -62,37 +62,50 @@ signs[i] 가 참이면 absolutes[i] 의 실제 정수가 양수임을, 그렇지 않으면 음수임을 
 * a와 b는 -10,000,000 이상 10,000,000 이하인 정수입니다.
 * a와 b의 대소관계는 정해져있지 않습니다.
 */
+
+// 두정수 사이의 공식을 사용한다.
 long long solution(int a, int b)
 {
-    std::vector<long long> side;
-    long long answer = 0;
-    long long n = (a + b) / 2;
-    for (long long i = 0; i < b; i++)
+    if (a > b)
     {
+        std::swap(a, b);
+    }
+
+    std::vector<int> side;
+    long long answer = 0;
+    long long n = (b - a) - 1;   // 두정수 사이의 개수 (a와 b를 포함하지않은)
+    long long t = (b - a) + 1;   // 두 정수 사이의 개수 (a와 b를 포함한)
+    // (1) × (3 + 5) / 2 = 4
+    // (개수) × ((a + 1) + (b - 1)) / 2
+    long long sideset = ((b - a) - 1) * ((a + 1) + (b - 1)) / 2;   // 두정수 사이의 수 (4)
+
+   // 합 = (개수)×(a + b) / 2
+  long long sum =  t * (a + b) / 2;
+
+    for (long long i = 0; i < t; i++)
+    {
+        side.push_back(a + i);
         if (a > 0)
         {
-            side.push_back(a + i);
+            answer += side[i];
+        }
 
+        else if (a == b)
+        {
+            answer = a;
+            return a;
         }
     }
-   
-    if (a == b)
-    {
-        answer = a;
-        return a;
-    }
-    
-  
-  
-   
-   
+
+    return answer;
+ 
 }
 
 int main()
 {
-    solution(3, 5);
-
-    std::cout << solution << std::endl;
+   long long sum = solution(7, 1);
+    
+    std::cout << sum << std::endl;
 }
 
 
