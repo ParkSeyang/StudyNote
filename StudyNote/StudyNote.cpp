@@ -63,6 +63,19 @@ signs[i] 가 참이면 absolutes[i] 의 실제 정수가 양수임을, 그렇지 않으면 음수임을 
 * a와 b의 대소관계는 정해져있지 않습니다.
 */
 
+/*
+* long long n = (b - a) - 1;   // 두정수 사이의 개수 (a와 b를 포함하지않은)
+* long long t = (b - a) + 1;   // 두 정수 사이의 개수 (a와 b를 포함한)
+* // (1) × (3 + 5) / 2 = 4
+* // (개수) × ((a + 1) + (b - 1)) / 2
+* long long sideset = ((b - a) - 1) * ((a + 1) + (b - 1)) / 2;   // 두정수 사이의 수 (4)
+* // 합 = (개수)×(a + b) / 2
+* long long sum =  t * (a + b) / 2;
+* 
+* 
+*/
+
+
 // 두정수 사이의 공식을 사용한다.
 long long solution(int a, int b)
 {
@@ -71,39 +84,22 @@ long long solution(int a, int b)
         std::swap(a, b);
     }
 
-    std::vector<int> side;
     long long answer = 0;
-    long long n = (b - a) - 1;   // 두정수 사이의 개수 (a와 b를 포함하지않은)
-    long long t = (b - a) + 1;   // 두 정수 사이의 개수 (a와 b를 포함한)
-    // (1) × (3 + 5) / 2 = 4
-    // (개수) × ((a + 1) + (b - 1)) / 2
-    long long sideset = ((b - a) - 1) * ((a + 1) + (b - 1)) / 2;   // 두정수 사이의 수 (4)
+    long long count = (b - a) + 1;
 
-   // 합 = (개수)×(a + b) / 2
-  long long sum =  t * (a + b) / 2;
+    answer = count * (a + b) / 2;
 
-    for (long long i = 0; i < t; i++)
+    if (a == b)
     {
-        side.push_back(a + i);
-        if (a > 0)
-        {
-            answer += side[i];
-        }
-
-        else if (a == b)
-        {
-            answer = a;
-            return a;
-        }
+        answer = a;
     }
 
     return answer;
- 
 }
 
 int main()
 {
-   long long sum = solution(7, 1);
+   long long sum = solution(5, 3);
     
     std::cout << sum << std::endl;
 }
