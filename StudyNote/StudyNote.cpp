@@ -216,7 +216,13 @@ int solution(int number, int limit, int power)
 {
     int answer = 0;
 
+    for (size_t i = 0; i < length; i++)
+    {
+        if ()
+        {
 
+        }
+    }
 
     return answer;
 }
