@@ -212,27 +212,58 @@ using namespace std;
 * 따라서 해당 수들의 합인 21을 return 합니다.
 */
 
-int solution(int number, int limit, int power) 
-{
-    int answer = 0;
-
-    for (size_t i = 0; i < length; i++)
-    {
-        if ()
-        {
-
-        }
-    }
-
-    return answer;
-}
-
-int main()
-{
-    int answer = solution(5, 3, 2);
-
-    cout << answer << endl;
-}
+// int solution(int number, int limit, int power) 
+// {
+//     int answer = 0;
+//     int count = 0;
+//     
+//    vector<int> numberCount;
+//     for (int n = 1; n <= number; n++)   // n은 1부터 number까지 반복하며 각 기사의 번호를 나타냄
+//     {
+//         count = 0;           // vector에 넣을 각수의 약수 갯수 를 반복할때 값이 누적되지않도록 초기화
+// 
+//         for (int i = 1; i * i <= n; i++)     // 각수 n의 약수 개수를 구하는 반복문
+//         {
+//             if (n % i == 0)     // n(각수의 번호) %  i(약수) 가 0일때  
+//             {
+//                 if (i == n / i)  // i == n / i일 경우는 n이 i*i인 제곱수이므로, 약수를 1개만 추가
+//                 {
+//                     count += 1;  
+//                 }
+//                 else // 제곱수가 아닌 경우, i와 n/i는 서로 다른 두 약수이므로 둘 다 포함
+//                 {
+//                     count += 2;  
+//                 }
+//             }
+//         }
+//         numberCount.push_back(count);
+// 
+//         cout << "리미트 조건을 바꾸기전 값 : " << numberCount[n - 1] << endl;
+// 
+//         if (numberCount[n - 1] > limit)   // 약수 개수가 limit보다 크면 power로 대체
+//         {
+//             numberCount[n - 1] = power;  
+//         }
+//     }
+//     cout << "리미트에 제한을 건후 의 값 : " << endl;
+//     for (int i = 0; i < numberCount.size(); i++)
+//     {
+//         cout << numberCount[i] << " ";
+//     }
+// 
+//     for (int i = 0; i < numberCount.size(); i++)    // 수정된 약수 개수들을 모두 더해 최종 공격력 계산
+//     {
+//         answer += numberCount[i];  // 모든 약수의 개수를 answer 변수에 합해서 대입한다.
+//     }
+//     return answer;  // 그 값을 리턴시킨다.
+// }
+// 
+// int main()
+// {
+//     int answer = solution(10, 3, 2);
+// 
+//     cout << answer << endl;
+// }
 
 #pragma endregion
 
