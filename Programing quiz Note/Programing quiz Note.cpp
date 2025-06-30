@@ -138,36 +138,54 @@ using namespace std;
 */
 #include <vector>
 
-using namespace std;
+// using namespace std;
+// 
+// int solution(int a, int b, int c) 
+// {
+// 
+//     int answer = 0;
+// 
+// 	if (a != b != c)
+// 	{
+// 		answer = a + b + c;
+// 	
+// 	}
+// 	if (a != b == c || a == b != c)
+// 	{
+// 		answer = (a + b + c) * ((a*a) + (b*b) + (c*c));
+// 		
+// 	}
+// 	if (a == b == c)
+// 	{
+// 		answer = (a + b + c) * ((a * a) + (b * b) + (c * c)) *((a*a*a)+(b*b*b)+(c*c*c));
+// 		
+// 	}
+// 		return answer;
+// }
+// int main()
+// {
+// 	int result = 0;
+// 
+// 	result = solution(5, 4, 1);
+// 
+// 	std::cout << "주사위 값 : " << result <<std::endl;
+// }
+#pragma endregion
 
-int solution(int a, int b, int c) 
-{
 
-    int answer = 0;
-
-	if (a != b != c)
-	{
-		answer = a + b + c;
-	
-	}
-	if (a != b == c || a == b != c)
-	{
-		answer = (a + b + c) * ((a*a) + (b*b) + (c*c));
-		
-	}
-	if (a == b == c)
-	{
-		answer = (a + b + c) * ((a * a) + (b * b) + (c * c)) *((a*a*a)+(b*b*b)+(c*c*c));
-		
-	}
-		return answer;
-}
 int main()
 {
-	int result = 0;
+	std::vector<int> zxc;
 
-	result = solution(5, 4, 1);
+	for (int i = 1; i < 6; i++)
+	{
+		zxc.push_back(i);
+	}
 
-	std::cout << "주사위 값 : " << result <<std::endl;
+	zxc.pop_back();
+
+	for (int i = 0; i < zxc.size(); i++)
+	{
+		std::cout << zxc[i] << " ";
+	}
 }
-#pragma endregion
