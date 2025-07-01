@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <cmath>
+#include <algorithm>
 
 using namespace std;
 
@@ -454,51 +454,42 @@ using namespace std;
 
 vector<int> solution(int k, vector<int> score) 
 {
+    vector<int> scoreset;
+
     vector<int> answer;
 
-    k = score.size();
 
-    if (answer.size() > 3)
+    for (int i = 0; i < score.size(); i++)
     {
-        if (answer[i] > score)
+        scoreset.push_back(score[i]);
+
+        if (scoreset[i] > score[i])
         {
-            int cut = answer.end();
-            cout << cut << endl;
-            answer.pop_back();
+            answer.push_back(score[i]);
         }
-        else
-        {
-            cout << answer[i] << endl;
-        }
+       else if (scoreset.size() > k)
+       {
+           auto min = std::min_element(scoreset.begin(), scoreset.end());
+           answer.push_back(*min);
+       }
        
     }
-
-    for (int i = 1; i < 10; i++)
-    {
-        
-        if (score.empty())
-        {
-            
-        }
-        else if (true)
-        {
-
-        }
-    }
-
+    
     return answer;
 }
 
 int main()
 {
-    vector<int> Score = solution(3, Score);
+    vector<int> Score = { 10,100,20,150,1,100,200 };
+    vector<int> result = solution(3,Score);
 
-    cout << "정답테스트 :" << endl;
-    for (int i = 0; i < Score.size(); i++)
+    cout << "정답테스트 : " << endl;
+    for (int i = 0; i < result.size(); i++)
     {
-        cout << Score[i] << endl;
+        cout << result[i] << ", ";
     }
     
+   
 }
 
 
