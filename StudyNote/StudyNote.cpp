@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <queue>
 
 using namespace std;
 
@@ -419,7 +420,7 @@ using namespace std;
 
 #pragma endregion
 
-#pragma region 명예의 전당(1)
+#pragma region 명예의 전당(1) (정답률 72%)
 /* 문제 설명
 * "명예의 전당"이라는 TV 프로그램에서는 매일 1명의 가수가 노래를 부르고, 시청자들의 문자 투표수로 가수에게 점수를 부여합니다. 
 * 매일 출연한 가수의 점수가 지금까지 출연 가수들의 점수 중 상위 k번째 이내이면 해당 가수의 점수를 명예의 전당이라는 목록에 올려 기념합니다. 
@@ -452,44 +453,127 @@ using namespace std;
 * 아래와 같이, [0, 0, 0, 0, 20, 40, 70, 70, 150, 300]을 return합니다. 
 */
 
-vector<int> solution(int k, vector<int> score) 
+// vector<int> solution(int k, vector<int> score) 
+// {
+//     vector<int> scoreset;
+// 
+//     vector<int> answer;
+// 
+// 
+//     for (int i = 0; i < score.size(); i++)
+//     {
+//         scoreset.push_back(score[i]);
+// 
+//         if (scoreset[i] > score[i])
+//         {
+//             answer.push_back(score[i]);
+//         }
+//        else if (scoreset.size() > k)
+//        {
+//            auto min = std::min_element(scoreset.begin(), scoreset.end());
+//            answer.push_back(*min);
+//        }
+//        
+//     }
+//     
+//     return answer;
+// }
+
+// 정답
+// vector<int> solution(int k, vector<int> score)
+// {
+//     priority_queue<int, vector<int>, greater<int>> scoreset;
+// 
+//     vector<int> answer;
+// 
+// 
+//     for (int i = 0; i < score.size(); i++)
+//     {
+//         scoreset.push(score[i]);
+// 
+//         if (scoreset.size() > k)
+//         {
+//             scoreset.pop();
+//         }
+//         answer.push_back(scoreset.top());
+//     }
+// 
+//     return answer;
+// }
+// 
+// int main()
+// {
+//     vector<int> Score = { 10,100,20,150,1,100,200 };
+//     vector<int> result = solution(3,Score);
+// 
+//     cout << "정답테스트 : " << endl;
+//     for (int i = 0; i < result.size(); i++)
+//     {
+//         cout << result[i] << " ";
+//     }
+//     
+//    
+// }
+
+
+#pragma endregion
+
+#pragma region k번째 수
+/* 문제 설명
+* 배열 array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때, k번째에 있는 수를 구하려 합니다.
+* 
+* 예를 들어 array가 [1, 5, 2, 6, 3, 7, 4], i = 2, j = 5, k = 3이라면
+* 
+* array의 2번째부터 5번째까지 자르면 [5, 2, 6, 3]입니다.
+* 1에서 나온 배열을 정렬하면 [2, 3, 5, 6]입니다.
+* 2에서 나온 배열의 3번째 숫자는 5입니다.
+* 배열 array, [i, j, k]를 원소로 가진 2차원 배열 commands가 매개변수로 주어질 때, commands의 모든 원소에 대해 앞서 설명한 연산을 적용했을 때 
+* 나온 결과를 배열에 담아 return 하도록 solution 함수를 작성해주세요.
+* 
+* 제한사항
+* array의 길이는 1 이상 100 이하입니다.
+* array의 각 원소는 1 이상 100 이하입니다.
+* commands의 길이는 1 이상 50 이하입니다.
+* commands의 각 원소는 길이가 3입니다.
+* 
+* 입출력 예
+* array	                            commands	             return
+* [1, 5, 2, 6, 3, 7, 4]	[[2, 5, 3], [4, 4, 1], [1, 7, 3]]	[5, 6, 3]
+* 
+* 입출력 예 설명
+* [1, 5, 2, 6, 3, 7, 4]를 2번째부터 5번째까지 자른 후 정렬합니다. [2, 3, 5, 6]의 세 번째 숫자는 5입니다.
+* [1, 5, 2, 6, 3, 7, 4]를 4번째부터 4번째까지 자른 후 정렬합니다. [6]의 첫 번째 숫자는 6입니다.
+* [1, 5, 2, 6, 3, 7, 4]를 1번째부터 7번째까지 자릅니다. [1, 2, 3, 4, 5, 6, 7]의 세 번째 숫자는 3입니다.
+*/
+
+
+vector<int> solution(vector<int> array, vector<vector<int>> commands) 
 {
-    vector<int> scoreset;
-
-    vector<int> answer;
-
-
-    for (int i = 0; i < score.size(); i++)
-    {
-        scoreset.push_back(score[i]);
-
-        if (scoreset[i] > score[i])
-        {
-            answer.push_back(score[i]);
-        }
-       else if (scoreset.size() > k)
-       {
-           auto min = std::min_element(scoreset.begin(), scoreset.end());
-           answer.push_back(*min);
-       }
-       
-    }
-    
-    return answer;
+	vector<int> answer;
+	return answer;
 }
+
 
 int main()
 {
-    vector<int> Score = { 10,100,20,150,1,100,200 };
-    vector<int> result = solution(3,Score);
+	vector<int>Array = { 1, 5, 2, 6, 3, 7, 4 };
+	vector<int> i = { 2,5,3 };
+	vector<int>	j = { 4,4,1 };
+	vector<int>	k = { 1,7,3 };
+	vector<vector<int>>Commands;
+	Commands.push_back(i);
+	Commands.push_back(j);
+	Commands.push_back(k);
 
-    cout << "정답테스트 : " << endl;
-    for (int i = 0; i < result.size(); i++)
-    {
-        cout << result[i] << ", ";
-    }
-    
-   
+
+	cout << "정답 테스트 : ";
+
+	for (auto& ls : Commands)
+	{
+		
+	}
+
+
 }
 
 
