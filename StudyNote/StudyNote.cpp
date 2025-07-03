@@ -518,7 +518,7 @@ using namespace std;
 
 #pragma endregion
 
-#pragma region k번째 수
+#pragma region k번째 수 (Lv1 정답률 72%)(정렬)
 /* 문제 설명
 * 배열 array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때, k번째에 있는 수를 구하려 합니다.
 * 
@@ -547,34 +547,109 @@ using namespace std;
 */
 
 
-vector<int> solution(vector<int> array, vector<vector<int>> commands) 
+// vector<int> solution(vector<int> array, vector<vector<int>> commands) 
+// {
+// 	vector<int> answer;
+// 	 for (int i = 0; i < commands.size(); i++)
+// 	 {
+// 	 	int z = commands[i][0], x = commands[i][1], c = commands[i][2];
+// 	 
+// 	 	vector<int> cutarray(array.begin() + (z - 1), array.begin() + x);
+// 	 
+// 	 	sort(cutarray.begin(), cutarray.end());
+// 	 
+// 	 	answer.push_back(cutarray[c-1]);
+// 	 }
+// 	// 방법 2 
+// 	// for (const auto& cmd : commands)
+// 	// {
+// 	// 	int z = cmd[0], x = cmd[1], c = cmd[2];
+// 	// 	vector<int> cutarray(array.begin() + (z - 1), array.begin() + x);
+// 	// 
+// 	// 	sort(cutarray.begin(), cutarray.end());
+// 	// 
+// 	// 	answer.push_back(cutarray[c - 1]);
+// 	// 
+// 	// }
+// 	 return answer;
+// 
+// }
+// 
+// 
+// int main()
+// {
+// 	vector<int>Array = { 1, 5, 2, 6, 3, 7, 4 };
+// 	vector<int> i = { 2,4,1 };
+// 	vector<int>	j = { 5,4,7 };
+// 	vector<int>	k = { 3,1,3 };
+// 	vector<vector<int>>Commands;
+// 	
+// 	for (int n = 0; n < i.size(); n++)
+// 	{
+// 		Commands.push_back({ i[n], j[n], k[n] });
+// 	}
+// 
+// 	vector<int> result = solution(Array, Commands);
+// 
+// 
+// 	cout << "정답 테스트 : ";
+// 	for (int val : result)
+// 	{
+// 		cout << val << endl;
+// 	}
+// 
+// }
+
+
+#pragma endregion
+
+#pragma region 최솟값 만들기(Lv2 정답률 79%)(연습문제)
+/* 문제 설명
+* 길이가 같은 배열 A, B 두개가 있습니다. 각 배열은 자연수로 이루어져 있습니다.
+* 배열 A, B에서 각각 한 개의 숫자를 뽑아 두 수를 곱합니다. 이러한 과정을 배열의 길이만큼 반복하며, 두 수를 곱한 값을 누적하여 더합니다. 이때 최종적으로 누적된 값이 최소가 되도록 만드는 것이 목표입니다. (단, 각 배열에서 k번째 숫자를 뽑았다면 다음에 k번째 숫자는 다시 뽑을 수 없습니다.)
+* 
+* 예를 들어 A = [1, 4, 2] , B = [5, 4, 4] 라면
+* 
+* A에서 첫번째 숫자인 1, B에서 첫번째 숫자인 5를 뽑아 곱하여 더합니다. (누적된 값 : 0 + 5(1x5) = 5)
+* A에서 두번째 숫자인 4, B에서 세번째 숫자인 4를 뽑아 곱하여 더합니다. (누적된 값 : 5 + 16(4x4) = 21)
+* A에서 세번째 숫자인 2, B에서 두번째 숫자인 4를 뽑아 곱하여 더합니다. (누적된 값 : 21 + 8(2x4) = 29)
+* 즉, 이 경우가 최소가 되므로 29를 return 합니다.
+* 
+* 배열 A, B가 주어질 때 최종적으로 누적된 최솟값을 return 하는 solution 함수를 완성해 주세요.
+* 
+* 제한사항
+* 배열 A, B의 크기 : 1,000 이하의 자연수
+* 배열 A, B의 원소의 크기 : 1,000 이하의 자연수
+* 입출력 예
+* A	B	answer
+* [1, 4, 2]	[5, 4, 4]	29
+* [1,2]	[3,4]	10
+* 입출력 예 설명
+* 입출력 예 #1
+* 문제의 예시와 같습니다.
+* 
+* 입출력 예 #2
+* A에서 첫번째 숫자인 1, B에서 두번째 숫자인 4를 뽑아 곱하여 더합니다. (누적된 값 : 4) 다음, A에서 두번째 숫자인 2, B에서 첫번째 숫자인 3을 뽑아 곱하여 더합니다. (누적된 값 : 4 + 6 = 10)
+* 이 경우가 최소이므로 10을 return 합니다.
+*/
+
+int solution(vector<int> A, vector<int> B)
 {
-	vector<int> answer;
-	return answer;
-}
-
-
-int main()
-{
-	vector<int>Array = { 1, 5, 2, 6, 3, 7, 4 };
-	vector<int> i = { 2,5,3 };
-	vector<int>	j = { 4,4,1 };
-	vector<int>	k = { 1,7,3 };
-	vector<vector<int>>Commands;
-	Commands.push_back(i);
-	Commands.push_back(j);
-	Commands.push_back(k);
-
-
-	cout << "정답 테스트 : ";
-
-	for (auto& ls : Commands)
+	int answer = 0;
+	priority_queue<int> zxc;
+	for (int i = 0; i < A.size(); i++)
 	{
-		
+		answer += A[i] * B[i];
+
 	}
 
 
+	return answer;
 }
 
+int main()
+{
+
+}
 
 #pragma endregion
