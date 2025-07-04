@@ -659,28 +659,30 @@ using namespace std;
 // }
 
 // vector와 정렬을 이용한 문제풀이
-int solution(vector<int>A, vector<int> B)
-{
-	int answer = 0;
-	sort(A.begin(), A.end());
-	sort(B.rbegin(), B.rend());
-	for (int i = 0; i < A.size(); i++)
-	{
-		answer += A[i] * B[i];
-	}
+// int solution(vector<int>A, vector<int> B)
+// {
+// 	int answer = 0;
+// 	sort(A.begin(), A.end());
+// 	sort(B.rbegin(), B.rend());
+//    // reverse(B.begin(), B.end());
+//    // 리버스함수를 사용할려면 알고리즘 헤더와 rbegin으로 해놓은것을 begin으로 바꿔줘야합니다.
+// 	for (int i = 0; i < A.size(); i++)
+// 	{
+// 		answer += A[i] * B[i];
+// 	}
+//     
+// 	return answer;
+// }
 
-	return answer;
-}
-
-int main()
-{
-	vector<int> A1 = { 1,4,2 };
-	vector<int> B1 = { 5,4,4 };
-
-
-	int result = solution(A1,B1);
-
-	cout << result << endl;
-}
+// int main()
+// {
+// 	vector<int> A1 = { 1,4,2 };
+// 	vector<int> B1 = { 5,4,4 };
+// 
+// 
+// 	int result = solution(A1,B1);
+// 
+// 	cout << result << endl;
+// }
 
 #pragma endregion
