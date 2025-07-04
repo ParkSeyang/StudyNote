@@ -633,23 +633,54 @@ using namespace std;
 * 이 경우가 최소이므로 10을 return 합니다.
 */
 
-int solution(vector<int> A, vector<int> B)
+
+// priority_queue를 이용한 최솟값과 최댓값을 이용해서 풀은 문제풀이
+// int solution(vector<int> A, vector<int> B)
+// {
+// 	int answer = 0;
+// 	priority_queue<int,vector<int>, greater<int>> resumA;
+// 	priority_queue<int> resumB;
+// 
+// 	for (int i = 0; i < A.size(); i++)
+// 	{
+// 		resumA.push(A[i]);
+// 		resumB.push(B[i]);
+// 	}
+// 
+// 	for (int i = 0; i < A.size(); i++)
+// 	{
+// 		answer += resumA.top() * resumB.top();
+// 		resumA.pop();
+// 		resumB.pop();
+// 
+// 	}
+// 
+// 	return answer;
+// }
+
+// vector와 정렬을 이용한 문제풀이
+int solution(vector<int>A, vector<int> B)
 {
 	int answer = 0;
-	priority_queue<int> zxc;
+	sort(A.begin(), A.end());
+	sort(B.rbegin(), B.rend());
 	for (int i = 0; i < A.size(); i++)
 	{
 		answer += A[i] * B[i];
-
 	}
-
 
 	return answer;
 }
 
 int main()
 {
+	vector<int> A1 = { 1,4,2 };
+	vector<int> B1 = { 5,4,4 };
 
+
+	int result = solution(A1,B1);
+
+	cout << result << endl;
 }
 
 #pragma endregion
