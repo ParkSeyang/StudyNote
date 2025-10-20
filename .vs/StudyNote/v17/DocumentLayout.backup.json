@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{691C48C4-3D48-4986-A96C-305F641980E9}|StudyNote2\\StudyNote2.vcxproj|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\StudyNote2\\StudyNote2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{691C48C4-3D48-4986-A96C-305F641980E9}|StudyNote2\\StudyNote2.vcxproj|solutionrelative:StudyNote2\\StudyNote2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28804B73-2AC3-4318-8B4D-7A6076EFDCD7}|StudyNote\\StudyNote.vcxproj|C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\StudyNote\\StudyNote.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{28804B73-2AC3-4318-8B4D-7A6076EFDCD7}|StudyNote\\StudyNote.vcxproj|solutionrelative:StudyNote\\StudyNote.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -18,28 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StudyNote2.cpp",
+              "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\StudyNote2\\StudyNote2.cpp",
+              "RelativeDocumentMoniker": "StudyNote2\\StudyNote2.cpp",
+              "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\StudyNote2\\StudyNote2.cpp",
+              "RelativeToolTip": "StudyNote2\\StudyNote2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-17T06:28:34.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StudyNote.cpp",
               "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\StudyNote\\StudyNote.cpp",
               "RelativeDocumentMoniker": "StudyNote\\StudyNote.cpp",
               "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\StudyNote\\StudyNote.cpp",
               "RelativeToolTip": "StudyNote\\StudyNote.cpp",
-              "ViewState": "AgIAALgBAAAAAAAAAAAqwF0CAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHgCAAAAAAAAAADwv7UCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-20T11:24:11.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Programing quiz Note.cpp",
               "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\Programing quiz Note\\Programing quiz Note.cpp",
               "RelativeDocumentMoniker": "Programing quiz Note\\Programing quiz Note.cpp",

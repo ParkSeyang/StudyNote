@@ -687,3 +687,19 @@ using namespace std;
 
 #pragma endregion
 
+#pragma region º°Âï±â
+int main()
+{
+	int n,i;
+
+	char star[101] = "*";
+
+	scanf_s("%d", &n);
+	for (i = 1; i < n; i++)
+	{
+		printf("%c", star[i]);
+		printf("\n");
+	}
+}
+
+#pragma endregion

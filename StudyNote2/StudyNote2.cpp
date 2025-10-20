@@ -18,15 +18,11 @@ vector<vector<int>> solution(vector<vector<int>> arr1, vector<vector<int>> arr2)
     return answer;
 }
 
+void STQ();
 
 int main()
 {
     vector<vector<int>> array1;
     vector<vector<int>> array2;
 
-
-
-
-
 }
-

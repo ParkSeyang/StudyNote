@@ -1,2 +1,3 @@
 ﻿  StudyNote.cpp
-  StudyNote.vcxproj -> C:\Users\ghlwk_sc7hq61\OneDrive\Desktop\게임 프로그래밍 개발자 수업 과정\자습 또는 복습용 코딩파일\StudyNote\x64\Debug\StudyNote.exe
+C:\Users\ghlwk_sc7hq61\OneDrive\Desktop\게임 프로그래밍 개발자 수업 과정\자습 또는 복습용 코딩파일\StudyNote\StudyNote\StudyNote.cpp(697,10): warning C4477: 'scanf_s' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+C:\Users\ghlwk_sc7hq61\OneDrive\Desktop\게임 프로그래밍 개발자 수업 과정\자습 또는 복습용 코딩파일\StudyNote\StudyNote\StudyNote.cpp(697,1): error C4700: 초기화되지 않은 'n' 지역 변수를 사용했습니다.
