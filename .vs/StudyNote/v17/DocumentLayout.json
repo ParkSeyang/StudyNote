@@ -22,17 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StudyNote2.cpp",
               "DocumentMoniker": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\StudyNote2\\StudyNote2.cpp",
               "RelativeDocumentMoniker": "StudyNote2\\StudyNote2.cpp",
-              "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\StudyNote2\\StudyNote2.cpp*",
-              "RelativeToolTip": "StudyNote2\\StudyNote2.cpp*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ghlwk_sc7hq61\\OneDrive\\Desktop\\\uAC8C\uC784 \uD504\uB85C\uADF8\uB798\uBC0D \uAC1C\uBC1C\uC790 \uC218\uC5C5 \uACFC\uC815\\\uC790\uC2B5 \uB610\uB294 \uBCF5\uC2B5\uC6A9 \uCF54\uB529\uD30C\uC77C\\StudyNote\\StudyNote2\\StudyNote2.cpp",
+              "RelativeToolTip": "StudyNote2\\StudyNote2.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-17T06:28:34.609Z",
               "EditorCaption": ""
