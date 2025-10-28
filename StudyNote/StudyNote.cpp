@@ -688,6 +688,7 @@ using namespace std;
 #pragma endregion
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma region 별찍기
 int main()
 {
@@ -702,6 +703,8 @@ int main()
 		printf("\n");
 	}
 =======
+=======
+>>>>>>> Stashed changes
 
 #pragma region 없는 숫자 더하기(Lv1 정답률 87%)
 
@@ -739,6 +742,9 @@ int main()
 
     }
     
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 
