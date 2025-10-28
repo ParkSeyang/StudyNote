@@ -687,6 +687,7 @@ using namespace std;
 
 #pragma endregion
 
+<<<<<<< Updated upstream
 #pragma region 별찍기
 int main()
 {
@@ -700,6 +701,45 @@ int main()
 		printf("%c", star[i]);
 		printf("\n");
 	}
+=======
+
+#pragma region 없는 숫자 더하기(Lv1 정답률 87%)
+
+int solution(vector<int> numbers) 
+{
+    vector<int> array;
+
+   // int answer = -1;
+
+    for (int i = 0; i < numbers.max_size(); i++)
+    {
+        array.push_back(numbers[i] - numbers[i + 1]);
+
+    }
+   
+    for (int i = 0; i < numbers.size(); i++)
+    {
+        cout << array[i] << endl;
+    }
+
+
+   // return answer; 
+}
+
+int main()
+{
+    vector<int> numbers = { 1,2,3,4,5,6,7,8,9,0 };
+
+    vector<int> answer;
+    
+    
+
+    for (int i = 0; i < numbers.size(); i++)
+    {
+
+    }
+    
+>>>>>>> Stashed changes
 }
 
 #pragma endregion
