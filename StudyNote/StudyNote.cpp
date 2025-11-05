@@ -689,6 +689,7 @@ using namespace std;
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #pragma region º°Âï±â
 int main()
 {
@@ -703,6 +704,8 @@ int main()
 		printf("\n");
 	}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 
@@ -743,6 +746,9 @@ int main()
     }
     
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
